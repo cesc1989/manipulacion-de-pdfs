@@ -1,4 +1,6 @@
-# manipulacion_pdfs
+# Generación y Manipulación de PDFs en Ruby
+
+Repo para probar varias librerías para generar y manipular PDFs en Ruby y Rails.
 
 ## Getting Started
 

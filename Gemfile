@@ -19,6 +19,9 @@ gem 'stimulus-rails', '1.2.1'
 gem 'sqlite3', '1.6.3'
 gem 'turbo-rails', '1.4.0'
 
+gem 'wicked_pdf'
+gem 'wkhtmltopdf-binary'
+
 group :development do
   gem 'annotate', '~> 3'
   gem 'foreman'

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Generación y Manipulación de PDFs
+    </title>
+
+    <!-- This is necessary to support unicode -->
+    <meta http-equiv='content-type' content='text/html; charset=utf-8' />
+
+    <%= wicked_pdf_stylesheet_link_tag 'bootstrap.min' %>
+    <%= wicked_pdf_stylesheet_link_tag 'pdf' %>
+  </head>
+
+  <body>
+
+    <div class="container">
+      <%= yield %>
+    </div>
+
+  </body>
+</html>

@@ -1,1 +1,37 @@
-<h1>Hola</h1>
+<h1>Generación y Manipulación de PDFs</h1>
+
+<p>
+  Librerías en prueba.
+</p>
+
+<table class="table">
+  <thead>
+    <th>
+      Librería
+    </th>
+
+    <th>
+      Vista HTML
+    </th>
+
+    <th>
+      Vista PDF
+    </th>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>
+        Wicked PDF
+      </td>
+
+      <td>
+        <%= link_to 'Ver HTML', wickedpdf_path %>
+      </td>
+
+      <td>
+        <%= link_to 'Ver PDF', wickedpdf_path(format: :pdf) %>
+      </td>
+    </tr>
+  </tbody>
+</table>

@@ -21,4 +21,6 @@ Rails.application.routes.draw do
 
   get 'dhalang', to: 'dhalang#index'
   get 'convert', to: 'dhalang#convert'
+
+  get 'grover', to: 'grover#index'
 end

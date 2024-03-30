@@ -24,6 +24,8 @@ gem 'wkhtmltopdf-binary'
 
 gem 'Dhalang'
 
+gem 'grover'
+
 group :development do
   gem 'annotate', '~> 3'
   gem 'foreman'

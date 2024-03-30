@@ -18,4 +18,7 @@ Rails.application.routes.draw do
   end
 
   get 'wickedpdf', to: 'wickedpdf#index'
+
+  get 'dhalang', to: 'dhalang#index'
+  get 'convert', to: 'dhalang#convert'
 end

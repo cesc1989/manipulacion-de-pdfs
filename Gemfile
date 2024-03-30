@@ -22,6 +22,8 @@ gem 'turbo-rails', '1.4.0'
 gem 'wicked_pdf'
 gem 'wkhtmltopdf-binary'
 
+gem 'Dhalang'
+
 group :development do
   gem 'annotate', '~> 3'
   gem 'foreman'

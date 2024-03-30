@@ -1,6 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    Dhalang (0.6.6)
     actioncable (7.0.8)
       actionpack (= 7.0.8)
       activesupport (= 7.0.8)
@@ -300,6 +301,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  Dhalang
   amazing_print (= 1.2.2)
   annotate (~> 3)
   blueprinter

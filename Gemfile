@@ -17,7 +17,7 @@ gem 'sass-rails', '>= 6'
 gem 'sidekiq'
 gem 'stimulus-rails', '1.2.1'
 gem 'sqlite3', '1.6.3'
-gem 'turbo-rails', '1.4.0'
+gem 'turbo-rails', '2.0.5'
 
 gem 'wicked_pdf'
 gem 'wkhtmltopdf-binary'

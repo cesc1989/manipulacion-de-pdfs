@@ -26,6 +26,8 @@ gem 'Dhalang'
 
 gem 'grover'
 
+gem 'prawn'
+
 group :development do
   gem 'annotate', '~> 3'
   gem 'foreman'

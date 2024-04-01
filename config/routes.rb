@@ -23,4 +23,7 @@ Rails.application.routes.draw do
   get 'convert', to: 'dhalang#convert'
 
   get 'grover', to: 'grover#index'
+
+  get 'prawn', to: 'prawn#index'
+  get 'prawn/generate', to: 'prawn#generate'
 end

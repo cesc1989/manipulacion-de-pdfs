@@ -336,6 +336,7 @@ DEPENDENCIES
   bootstrap (~> 5.2.3)
   byebug
   capybara (= 3.39.2)
+  combine_pdf
   database_cleaner
   devise (= 4.9.3)
   dotenv-rails

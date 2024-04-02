@@ -32,6 +32,8 @@ gem 'invoice_printer'
 
 gem 'receipts'
 
+gem 'combine_pdf'
+
 group :development do
   gem 'annotate', '~> 3'
   gem 'foreman'

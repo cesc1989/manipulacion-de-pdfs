@@ -30,4 +30,6 @@ Rails.application.routes.draw do
   get 'invoice_printer', to: 'invoice_printer#index'
 
   get 'receipts', to: 'receipts#index'
+
+  get 'combine', to: 'combine#index'
 end

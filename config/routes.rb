@@ -28,4 +28,6 @@ Rails.application.routes.draw do
   get 'prawn/generate', to: 'prawn#generate'
 
   get 'invoice_printer', to: 'invoice_printer#index'
+
+  get 'receipts', to: 'receipts#index'
 end

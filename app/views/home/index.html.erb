@@ -134,7 +134,7 @@
 
     <tr>
       <td>
-        Invoice Printer
+        Invoice Printer. Usa Prawn.
       </td>
 
       <td>
@@ -156,6 +156,19 @@
 
       <td>
         <%#= link_to 'Ver PDF', wickedpdf_path(format: :pdf) %>
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Receipts. Usa Prawn.
+      </td>
+
+      <td>
+      </td>
+
+      <td>
+        <%= link_to 'Ver PDF', receipts_path(format: :pdf) %>
       </td>
     </tr>
   </tbody>

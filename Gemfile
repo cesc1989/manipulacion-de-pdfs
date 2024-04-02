@@ -30,6 +30,8 @@ gem 'prawn'
 
 gem 'invoice_printer'
 
+gem 'receipts'
+
 group :development do
   gem 'annotate', '~> 3'
   gem 'foreman'

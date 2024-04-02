@@ -7,8 +7,8 @@ class DhalangController < ApplicationController
     pdf = Dhalang::PDF.get_from_url(url)
     file_name = "prueba_dhalang"
 
-    File.open("#{Rails.root}/public/#{_file_name}.pdf", "w+b") << pdf
+    File.open("#{Rails.root}/public/#{file_name}.pdf", "w+b") << pdf
 
-    redirect_to "/#{file_name}.pdf"
+    send_data "#{file_name}.pdf", type: 'application/pdf', disposition: 'inline'
   end
 end

@@ -5,9 +5,9 @@ class GroverController < ApplicationController
       format.pdf do
         html = ActionController::Base.new.render_to_string(
           template: 'grover/index',
-          layout: 'pdf',
+          layout: 'grover',
         )
-        redirect_to Grover.new(html).to_pdf
+        send_data Grover.new(html, emulate_media: 'screen').to_pdf, type: 'application/pdf', disposition: 'inline'
       end
     end
   end

@@ -28,6 +28,8 @@ gem 'grover'
 
 gem 'prawn'
 
+gem 'invoice_printer'
+
 group :development do
   gem 'annotate', '~> 3'
   gem 'foreman'

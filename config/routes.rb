@@ -26,4 +26,6 @@ Rails.application.routes.draw do
 
   get 'prawn', to: 'prawn#index'
   get 'prawn/generate', to: 'prawn#generate'
+
+  get 'invoice_printer', to: 'invoice_printer#index'
 end

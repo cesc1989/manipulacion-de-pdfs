@@ -4,16 +4,17 @@ Repo para probar varias librerías para generar y manipular PDFs en Ruby y Rails
 
 Librerías
 
-- WickedPDF
-- Prawn
+- WickedPDF ✅
+- Prawn ✅
 - HexaPDF
-- Dhalang
+- Dhalang ⚠️
 - Origami
 - Weasyprint
-- Grover
-- CombinePDF
-- Invoice Printer
+- Grover ✅
+- CombinePDF ✅
+- Invoice Printer ✅
 - Rails PDF
+- Receipts ✅
 
 ## Getting Started
 
